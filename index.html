@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Advanced Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="calc">
+    <section class="screen">
+      <div id="expr" class="expression">0</div>
+      <div id="prev" class="preview">&nbsp;</div>
+    </section>
+    <section class="keys">
+      <button class="key danger" data-action="clear">C</button>
+      <button class="key" data-action="delete">⌫</button>
+      <button class="key op" data-val="%">%</button>
+      <button class="key op" data-val="(">(</button>
+      <button class="key op" data-val=")">)</button>
+
+      <button class="key" data-val="7">7</button>
+      <button class="key" data-val="8">8</button>
+      <button class="key" data-val="9">9</button>
+      <button class="key op" data-val="÷">÷</button>
+      <button class="key" data-action="mc">MC</button>
+
+      <button class="key" data-val="4">4</button>
+      <button class="key" data-val="5">5</button>
+      <button class="key" data-val="6">6</button>
+      <button class="key op" data-val="×">×</button>
+      <button class="key" data-action="m+">M+</button>
+
+      <button class="key" data-val="1">1</button>
+      <button class="key" data-val="2">2</button>
+      <button class="key" data-val="3">3</button>
+      <button class="key op" data-val="-">−</button>
+      <button class="key" data-action="m-">M−</button>
+
+      <button class="key span-2" data-val="0">0</button>
+      <button class="key" data-val=".">.</button>
+      <button class="key op" data-val="+">+</button>
+      <button class="key" data-action="mr">MR</button>
+
+      <button class="key op span-2" data-action="equals">=</button>
+    </section>
+    <div class="history" id="history"></div>
+    <div class="theme-toggle" id="themeBtn">Toggle Theme</div>
+  </main>
+  <script src="script.js"></script>
+  <script>
+    
+  </script>
+</body>
+
+</html>
